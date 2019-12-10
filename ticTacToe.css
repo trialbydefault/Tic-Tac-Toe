@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    display: ;
 }
 
 h1 {
@@ -7,96 +8,57 @@ h1 {
 }
 
 #board {
-    padding: 40px;
-    margin: auto;
+    background-color: white;
     width: 560px;
     height: 460px;
-    background-color: white;
-    margin-top:124.7px;
-
+    margin: 100px auto;
     
 }
 
-#boxes{
-   margin: auto;
-   width: 302px;
-   height: 302px;
-
-}
-.row1 {
-    display: inline-block;
-    
+.game {
+    margin: 0 auto;
 }
 
-.row2 {
-    display: inline-block;
-}
-
-.row3 {
-    display: inline-block;
-}
-
-.top-left{
-    width: 100px;
+/*all 9 cells*/
+.row > div {
+    float: left;
     height: 100px;
-    border-right: 1px solid black;
+    width: 100px;
+
+}
+
+.row {
+    clear: left;
+    width: 302px;
+    margin: auto;
+}
+
+/* borders */
+
+.top {
     border-bottom: 1px solid black;
-
-    
-
+    text-align: center;
+    font-size: 50px;
+    line-height: 100px;
 }
 
-.middle-left {
-    width: 100px;
-    height: 100px;
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
-    
-
+.bottom {
+    border-top: 1px solid black;
+    text-align: center;
+    font-size: 50px;
+    line-height: 100px;
 }
 
-.bottom-left {
-    width: 100px;
-    height: 100px;
-    border-right: 1px solid black;
-    
-
-}
-
-.top-center{
-    width: 100px;
-    height: 100px;
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
-}
-
-.center{
-    width: 100px;
-    height: 100px;
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
-}
-
-.bottom-center{
-    width: 100px;
-    height: 100px;
+.left {
     border-right: 1px solid black;
 }
 
-.top-rigth {
-    width: 100px;
-    height: 100px;
-    border-bottom: 1px solid black;  
+.rigth {
+    border-left: 1px solid black
 }
 
-.middle-rigth{
-    width: 100px;
-    height: 100px;
-    border-bottom: 1px solid black;  
-}
-
-.bottom-rigth{
-    width: 100px;
-    height: 100px;
-     
+.middle {
+    text-align: center;
+    font-size: 50px;
+    line-height: 100px;
 }
